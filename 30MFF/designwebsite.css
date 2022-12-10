@@ -1,0 +1,329 @@
+
+p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Styling the main containers */
+
+.header {
+    position:fixed;
+    background-color:rgb(234, 144, 122);
+    color:white;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
+    height:60px;
+    vertical-align:center;
+   
+}
+.body_{
+    position:absolute;
+    width:100%;
+    left:0;
+    right:0;
+    top:50px;
+    height:800px;
+    background-color: rgb(244, 247, 197);
+    
+}
+
+.body_1{
+    position:absolute;
+    width:100%;
+    left:0;
+    right:0;
+    top:50px;
+    height:1700px;
+    background-color: rgb(244, 247, 197);
+    
+}
+.body_2{
+    position:absolute;
+    width:100%;
+    left:0;
+    right:0;
+    top:50px;
+    height:2200px;
+    background-color: rgb(244, 247, 197);
+    
+}
+.footer {
+    position:fixed;
+    height:10%;
+    width: 100%;
+    background-color:rgb(170, 205, 190);
+    text-align:center;
+    bottom:0;
+    left:0;
+    right:0;
+
+    
+}
+
+/*Formatting the header container*/
+.header-text {
+    color:rgb(251,198,135);
+    font-weight:bold;
+    font-size:23px;
+    margin-top:10px;
+    margin-left:30px;
+    margin-right:80px;
+    display:inline-block;
+    padding-right:730px;
+    padding-left:10px;
+
+}
+.header-text:hover {
+    color:rgb(170, 205, 190);
+    transition:0.7s;
+}
+.button-main, .button-video, .button-interact, .button-bts {
+    border:none;
+    background-color:rgb(251,198,135);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-right:5px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+/*Adding hover color property to buttons*/
+.button-main:hover, .button-video:hover, .button-interact:hover, .button-bts:hover {
+    background-color:rgb(170, 205, 190);
+    transition:0.7s;
+}
+
+
+/*Formatting the body container*/
+
+/*Centering the video in the center of the second page*/
+.video-container {
+    text-align:center;
+    margin-top:60px;
+}
+
+.intro-image {
+    width:1450px; 
+}
+
+.introductory-title{
+    position:absolute;
+    top:350px;
+    left:200px;
+    color: black;
+    font-size:42px;
+}
+/*Making the button interactive*/
+#learn {
+    border:none;
+    background-color:rgb(251,198,135);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius:30px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-right:5px;
+    cursor:pointer;
+    font-size:18px;
+    margin-left:130px;
+}
+#learn:hover {
+    background-color:rgb(170, 205, 190);
+    transition:0.8s;
+}
+
+/*Styling the "create your own bowl" choice grid*/
+
+.choice-div {
+    width:450px;
+    position:absolute;
+    top:120px;
+    left:220px;
+    display:inline-block;
+    
+}
+.choice-div2 {
+    width:450px;
+    position:absolute;
+    top:120px;
+    right:220px;
+    display:inline-block;
+}
+.choice-div3 {
+    position:absolute;
+    width:450px;
+    top:530px;
+    left:220px;
+    display:inline-block;
+
+}
+.choice-div4 {
+    position:absolute;
+    width:450px;
+    top:530px;
+    right:220px;
+    display:inline-block;
+
+}
+
+/*Styling buttons with hover property*/
+#theButton1, #theButton2,#theButton3, #theButton4, #theButton5,#theButton6, #theButton7, #theButton8, #theButton9, #theButton10 {
+    border:none;
+    background-color:rgb(251,198,135);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius:15px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-left:20px;
+    margin-top:10px;
+    cursor:pointer;
+    font-size:14px;
+
+}
+ #theButton2:hover, #theButton4:hover, #theButton6:hover, #theButton8:hover, #theButton10:hover{
+    background-color:rgb(170, 205, 190);
+    transition:0.7s;
+}
+
+#theButton1:hover, #theButton3:hover,  #theButton5:hover, #theButton7:hover, #theButton9:hover, #theButton11:hover, #theButton12:hover {
+    background-color:rgb(234, 144, 122);
+    transition:0.7s;
+}
+
+#theButton3 {
+    margin-left:115px;
+}
+
+#theButton2 {
+    margin-left:130px;
+}
+#theButton1, #theButton4 {
+    padding-left:25px;
+    padding-right:25px;
+    
+}
+#theButton5 {
+    margin-left:20px;
+}
+
+#theButton7{
+    margin-left:47px;
+}
+ #theButton8{
+    margin-left:50px;
+}
+#theButton11, #theButton12 {
+    border:none;
+    background-color:rgb(251,198,135);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius:25px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-left:20px;
+    margin-top:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+#theButton11 {
+    margin-left:140px;
+}
+
+.final {
+    position:absolute;
+    width:600px;
+    top:1050px;
+    left:425px;
+    
+    
+}
+/*Styling the "behind the scenes page"*/
+.body3{
+    margin-left:150px;
+    margin-top:30px;
+    
+
+}
+
+/*Making the width of image change when hovered*/
+.bts-image {
+    transition:transform .2s;
+    margin-left:300px;
+    margin-top:30px;
+    width:550px;
+    display:inline-block;
+}
+.bts-image:hover {
+    transform: scale(2);
+}
+
+.body3-text{
+    margin-left:70px;
+    margin-top:30px;
+    margin-right:280px;
+    letter-spacing:0.5px;
+    text-align:center;
+}
+.body3-subtext {
+    color:rgb(234, 144, 122);
+    text-align:center;
+    margin-top:5px;
+}
+.body3-text1 {
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:20px;
+}
+.body3-text2 {
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:30px;
+    text-align:center;
+}
+
+/*Creating toggle hide and show*/
+#surebutton {
+    border:none;
+    background-color:rgb(251,198,135);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border-radius:25px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-left:655px;
+    margin-top:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+#surebutton:hover {
+    background-color:rgb(234, 144, 122);
+    transition:0.7s;
+
+}
+
+#frames {
+    text-align:center;
+    margin-top:20px;
+}
+
+
+
+/*Formatting the footer*/
+.footer-text {
+    padding-top:17px;
+}
+
