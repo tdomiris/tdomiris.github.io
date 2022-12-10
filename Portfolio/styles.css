@@ -1,0 +1,136 @@
+
+/* fixing the footer in the bottom of page */
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:120px;
+  width:100%;
+}
+body {
+  padding-bottom:120px;
+  
+}
+/* background image of grass*/
+.musthead {
+  background-size:cover;
+  min-height:100vh;
+  position:relative;
+}
+.musthead1 {
+  background-size:cover;
+  min-height:80vh;
+  position:relative;
+}
+  .img-fluid {
+    width:110vh;
+  }
+
+  /* Making images in the grid change opacity on hover */
+  .img-fluid.op:hover {
+    opacity:0.65;
+    cursor:url('images/key.png');
+  
+  }
+
+  
+ /* Making the image flip horizontally */
+ .flip-box {
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    perspective: 1000px; 
+    position: absolute;   
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-box-back {
+    transform: rotateY(180deg);
+  }
+
+  /* Designing the "knock" button*/
+  .knock {
+    border:none;
+    border-radius:45px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color:#4a362b;
+    color:white;
+    font-size:20px;
+  }
+  .knock:hover{
+    transition:0.3s;
+    background-color:#866255;
+  }
+
+  /* Customizing the tooltip button*/
+  .tip {
+    position:relative;
+    background-color: #BE93D4;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius:10px;
+    border:solid;
+  }
+/* Customizing buttons that link to 4 main projects*/
+  .blue-tip {
+    position:relative;
+    background-color: rgb(15, 173, 241);
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius:10px;
+    border:solid;
+    border-color:#053ba8;
+    border-width:1px;
+    animation: glowing 1300ms infinite;
+  }
+/* Making main buttons glow*/
+  @keyframes glowing {
+    0% {
+      background-color: #0557a8;
+      box-shadow: 0 0 5px #053ba8;
+    }
+    50% {
+      background-color: #19c9e8;
+      box-shadow: 0 0 20px #19b1e8;
+    }
+    100% {
+      background-color: #056fa8;
+      box-shadow: 0 0 5px #0476a7;
+    }
+  }
+  
+  .g-custom{
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 5rem;
+}
+
